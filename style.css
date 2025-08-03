@@ -1,0 +1,768 @@
+.sec1{
+    background-image: url(build.jpg);
+
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+  
+}
+.sec9{
+    overflow: hidden;
+}
+body{
+    overflow-x: hidden;
+}
+.box1{
+  
+    max-width: 1100px;
+    margin: auto;
+    overflow: auto;
+    
+}
+
+.head1{
+    color: white;
+    /* line-height: 100px; */
+}
+.trans{
+    background-color:rgba(0, 0, 0, 0.719);
+    /* opacity: 0.5; */
+  min-height: 600px;
+}
+
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 100px;
+}
+nav ul li a{
+    text-decoration: none;
+    margin: 0px 10px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 5px 10px;
+    border-radius: 3px;
+
+}
+.aa{
+    margin-top: 30px;
+}
+nav ul li a:hover{
+    color: red;
+    background-color: white;
+   
+
+}
+.aa{
+   color: white;
+    display: inline-block;
+    font-size: 27px;
+    font-style:normal;
+}
+.spana{
+    color: red;
+}
+.spanb{
+    color: red;
+}
+.box2{
+    margin-top: 30px;
+    color: yellow;
+}
+
+#check{
+    display: none;
+}
+.checkbtn{
+    float: right;
+    margin-top: 35px;
+    display: none;
+}
+
+/* --media query */
+@media(max-width: 600px){
+    nav .aa{
+        padding-left: 20px;
+    }
+    .checkbtn{
+        display: block;
+    }
+    nav ul{
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.671);
+         width: 100%;
+        height: 100vh;
+        display: block;
+        margin: 10px 0px;transition: all 0.5s;
+        left: -100%;
+        text-align: end;
+        top:80px;
+        z-index: 2000;
+
+    }
+    nav ul li{
+        display: block;
+       
+    }
+    nav ul li a{
+        /* background-color: orange; */
+        text-decoration: underline;
+        color: lightcyan;
+        text-decoration: none;
+        border: 1px solid white;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+ 
+
+}
+
+
+
+.box3{
+    background-color: rgba(100, 107, 78, 0.719);
+    /* opacity: 0.3; */
+    /* height: 50px; */
+    margin: 30px 0px;
+    border: 1px solid wheat;
+    z-index: 1;
+    margin-right: 20px;
+    padding-left: 20px;
+    padding: 20px 20px;
+}
+.ba{
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.bb{
+    color: white;
+}
+.bc{
+    text-decoration: none;
+    border: 1px solid yellow;
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 13px;
+    padding: 5px 20px;
+
+}
+.bc:hover{
+    border: 1px solid yellowgreen;
+}
+
+.box4{
+    background-image: url(man.jpg);
+    background-size: cover;
+    height: 487px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* --media */
+@media(max-width: 480px){
+    .box4{
+        height: 300px;
+        text-align: center;
+        margin: 30px 10px 20px 10px;
+        
+    }
+}
+@media(max-width: 950px){
+    .box4{
+    
+        text-align: center;
+        margin: 30px 10px 20px 10px;
+    }
+}
+
+.box5{
+    margin-top: 50px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.ca{
+    height: 5px;
+    margin: auto;
+    background-color: darkorange;
+    width: 50px;
+    margin-bottom: 20px;
+}
+.cb{
+    margin-top: 60px;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+}
+.cc{
+    text-decoration: none;
+    color: yellow;
+    font-size: 16px;
+    padding: 8px 25px;
+    background-color: yellowgreen;
+    margin-bottom: 5px;
+    
+  
+}
+.box6{
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: rgb(235, 235, 245);
+    padding-bottom: 20px;
+    margin-bottom: 50px;
+
+}
+.da{
+    /* text-align: center; */
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+}
+.box7{
+    margin: 70px 30px 0px 0px;
+}
+.sec2{
+    background-color: rgb(235, 235, 245) ;
+}
+.db{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.dc{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+.dd{
+   /* margin-left: 60%; */
+   
+
+}
+.box90{
+    text-align: end;
+    /* background-color: yellowgreen; */
+    margin: 70px 20px 0px 0px;
+    
+}
+.de{
+    font-size: 12px;
+}
+.df{
+    height: 10px;
+}
+.ea{
+   text-transform: capitalize;
+   font-weight: 700;
+
+}
+.box8
+{
+    text-align: center;
+    margin-top: 60px ;
+    margin-bottom: 30px;
+}
+.box9{
+    background-color: orange;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 40px;
+    min-width: 300px;
+    min-height: 300px;
+ 
+   
+
+}
+.box101{
+    background-color: ghostwhite;
+    text-align: center;
+    margin: 10px 0px;
+    padding-top: 40px;
+    min-width: 300px;
+    min-height: 300px;
+    /* margin-bottom: 30px ; */
+   
+
+}
+.fa{
+    font-size: 10px;
+    margin: 25px 50px;
+    color: white;
+}
+.fn{
+    font-size: 13px;
+    margin: 25px 50px;
+    color: black;
+}
+.box11{
+  text-align: center;
+  margin-bottom: 30px;
+  margin-top: 15px;
+}
+.za{
+    text-decoration: underline;
+    text-decoration-color: orange;
+}
+.box100{
+    /* background-color: yellow; */
+    background-image: url(ab.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 10px 0px;
+    padding-top: 40px;
+}
+.box102{
+    background-image: url(ac.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 10px 0px;
+    padding-top: 40px;
+}
+ @media(max-width: 600pX){
+    .tab-content img{
+        height: 300px;
+        width: 300px;
+        text-align: center;
+        margin-left: 30px;
+    }
+         
+    
+}  
+
+
+
+.box103{
+    background-image: url(ra.jpg);
+    background-size: cover;
+    height: 300px;
+    margin: 10px 0px;
+    padding-top: 40px;
+}
+
+.sec4{
+    background-image:url(paaa.jpg);
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: black;
+    opacity: ;
+   */
+}
+.transs{
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    opacity: 0.8;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box12{
+    text-align: center;
+   
+    padding: 20px 0px;
+    flex-wrap: wrap;
+    margin: 15px 0px;
+}
+.ga{
+    padding-top: 20px ;
+    color: white;
+    font-size: 50px;
+}
+.gb{
+    padding-top:20px ;
+    color: orange;
+    text-transform: uppercase;
+    font-size: 16px;
+    /* text-align: center; */
+    font-weight: 400;
+}
+
+.box13{
+    text-align: center;
+    /* background-color: orange; */
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 10px 0px;
+   
+}
+.ia{
+    margin-top: 30px;
+    height: 300px;
+    width: 250px;
+    text-align: start;
+}
+.box15{
+    /* text-align: start; */
+    margin: 30px 0px 80px 0px ;
+    /* background-color: yellow; */
+   
+}
+.box15 ul li{
+    text-align:start;
+ 
+}
+.ib{
+
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+
+}
+.box13:hover{
+    background-color: orange;
+   
+}
+.ib:hover{
+    color: white;
+}
+.box16 h2{
+text-transform: capitalize;
+text-align: center;
+margin-top: 40px;
+font-size: 36px;
+font-weight: 600;
+}
+.box16{
+    text-align: center;
+    font-size: 13px;
+   
+}
+/* .wd{
+    font-weight: 700;
+    font-size: 80px;
+} */
+.box17{
+    background-color: rgb(221, 221, 141);
+    text-align: center;
+    margin: 50px 0px;
+    /* margin-right: 20px; */
+  
+}
+.box18{
+    /* margin: 40px 0px; */
+    background-image: url(pexels-olly-3760529.jpg);
+    background-size: cover;
+    width: 100%;
+    /* height: 90vh; */
+    height: 515px;
+    margin: 50px 0px;
+}
+.box19{
+    text-align: center;
+    /* background-color: gray; */
+}
+.box17{
+    font-size: 50px;
+    min-height: 150px;
+    /* min-width: 50px; */
+    margin:50px 0px ;
+
+
+    
+}
+.box19{
+    background-color: lightgoldenrodyellow ;
+    /* min-height: 300px; */
+    font-size: 20px;
+    /* margin: 20px 0px; */
+    padding: 20px 0px;
+    padding-bottom: 70px;
+}
+.xa{
+    font-size: 25px;
+    text-align: center;
+    padding: 20px 0px 0px 0px;
+
+   
+
+}
+.xb{
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   padding: 0px 0px 20px 0px;
+}
+.box17:hover{
+    background-color: orange;
+    
+}
+.xa:hover{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+.xb:hover{
+    color: white;
+}
+.xc{
+    text-decoration: none;
+    background-color:  rgb(221, 221, 141);
+    font-size: 16px;
+    padding: 10px 20px;
+    color: black    ;
+
+}
+.xc:hover{
+    background-color: orange;
+    color: white;
+}
+.box104{
+    margin-top: 30px;
+}
+.box20{
+    color: white;
+    text-align: center;
+    margin: 40px 0px;
+    /* font-size: 30px; */
+}
+.sec5{
+    background-image: url(ppppp.jpg);
+    background-size: cover;
+    min-height: 500px;
+}
+.box21{
+    background-color: white;
+    height: 300px;
+    width: 250px;
+   
+}
+.wa{
+    border-radius: 100%;
+    
+    padding: 25px;
+    height: 250px;
+    width: 250px;
+}
+.wb{
+    color: white;
+    /* text-align: center; */
+    margin: auto;
+
+}
+.box22{
+    text-align: center;
+    margin: 40px 0px 30px 0px;               
+    
+}
+
+/* --media */
+@media(max-width:1200px){
+    .box21{
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 23%;
+    }
+}
+
+
+@media(max-width:800px){
+    .box21{
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 13%;
+    }
+}
+
+@media(max-width:580px){
+    .box21{
+        margin-bottom: 20px;
+        text-align: center;
+        margin-left: 18%;
+    }
+    .box24 .ta{
+        font-size: 30px;
+    }
+}
+
+@media(max-width:800px){
+ .box12{
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    border:  1px solid darkorange;
+ }
+
+}
+
+
+.box23{
+    text-decoration: none;
+    text-align: center;
+    margin: 30px 0px 50px 0px;
+}
+
+.wc{
+    /* margin: 40px 0px 50px 0px; */
+    border: 1px solid white;
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 10px 20px;
+}
+.sec6{
+    background-color: gainsboro;
+    min-width: 100%;
+    min-height: 600px;
+}
+.box24,.ta{
+    text-align: center;
+    margin: 40px 0px;
+    font-weight: 700;
+    font-size: 50px;
+}
+.box25{
+    background-color: whitesmoke;
+    border-radius: 20px;
+   
+    padding: 30px 30px;
+  
+    margin-bottom: 20px;
+   
+}
+.tb{
+    margin: 0px 20px;
+}
+.tc{
+    margin-left: 50px;
+    margin-top: -10px;
+    padding-left: 10px;
+    text-transform: uppercase;
+    
+    
+}
+.td
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: wheat;
+    font-size: 15px;
+    background-color: orange;
+    text-align: center;
+    padding: 12px 33px;
+    margin: 40px 0px;
+    font-weight: bold;
+  
+}
+.box26{
+    text-align: center;
+    margin: 50px 0px;
+}
+.sec7{
+    background-image: url(lv.jpg);
+    background-size: cover;
+}
+.flex-container{
+    min-height: 500px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  
+
+    
+}
+.flex-container > div {
+    background-color: gainsboro;
+    color: orange;
+    width: 250px;
+    margin: 10px;
+    text-align: center;
+    height: 250px;
+    font-size: 30px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    padding: 70px 0px 0px 0px;
+  }
+
+
+@media(max-width:700px){
+    .flex-container > div{
+        height: 200px ;
+        width: 200px;
+        padding: 60px 0px 0px 0px;
+    }
+
+    .flex-container{
+            flex-direction: column;
+    }
+}
+@media(max-width:550px){
+    .flex-container > div{
+       min-width: 100px ;
+       min-height: 100px;
+       padding: 50px 0px 0px 0px;
+    }
+
+  
+}
+
+.flex-container > div:hover{
+    color: white;
+    background-color: orange;
+
+}
+
+.tg:hover{
+color: red;
+
+}
+
+
+
+.box29{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin: 40px 0px 50px 0px;
+}
+.item{
+    /* background-color: yellow; */
+    padding: 10px  130px;
+    text-align: center;
+    margin: 0px 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: black;
+
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.link:hover{
+    /* background-color: orange; */
+    color: white;
+}
+.item:hover{
+    background-color: orange;
+}
+/* .inbox{
+    background-color: violet;
+} */
+
+
+
+
+
+
+
+
+
+
